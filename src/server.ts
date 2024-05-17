@@ -13,7 +13,7 @@ async function main() {
     });
   } catch (error) {
     console.log({
-        project_url: "process.cwd()",
+      project_url: 'process.cwd()',
       message: 'failed to connect',
       error: error,
     });
