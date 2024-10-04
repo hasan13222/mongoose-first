@@ -12,4 +12,5 @@ export default {
   access_token_expires_in: process.env.ACCESS_TOKEN_EXPIRY_TIME,
   refresh_token_secret: process.env.REFRESH_TOKEN_SECRET_KEY,
   refresh_token_expires_in: process.env.REFRESH_TOKEN_EXPIRY_TIME,
+  smtp_password: process.env.SMTP_PASSWORD,
 };

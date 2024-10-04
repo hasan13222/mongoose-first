@@ -7,7 +7,7 @@ export const sendEmail = async (resetLink: string) => {
     secure: config.node_env === 'Production', // Use `true` for port 465, `false` for all other ports
     auth: {
       user: 'jamil8305@gmail.com',
-      pass: 'fivl wbsa bisk madv',
+      pass: config.smtp_password,
     },
   });
 
